@@ -1,6 +1,6 @@
 # sandbox
 
-Repo for workflow testing
+Repo for practicing developer workflow
 
 ## References
 
@@ -10,7 +10,7 @@ Repo for workflow testing
 - [GitHub Pull-Request][a2]
 - [GitHub Code-Review][a3]
 
-### Branch/Merge Strategy
+### Team Branch/Merge Strategy
 
 - [GitFlow][b1]
 - [GitFlow Tools][b2]
