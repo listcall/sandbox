@@ -19,5 +19,5 @@ Repo for workflow testing
 [g2]: https://github.com/features/code-review/
 
 [b1]: http://nvie.com/posts/a-successful-git-branching-model/
-[b1]: http://www.nomachetejuggling.com/2017/04/09/a-different-branching-strategy/
+[b2]: http://www.nomachetejuggling.com/2017/04/09/a-different-branching-strategy/
 
