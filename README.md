@@ -21,8 +21,7 @@ Repo for workflow testing
 - [Best Practices][c1]
 - [Using Rebase][c2]
 - [Using Squash][c3]
-- [Another Example][c4]
-
+- [Video Tutorial][c4]
 
 [a1]: https://sethrobertson.github.io/GitBestPractices
 [a2]: https://help.github.com/articles/about-pull-requests/
@@ -35,5 +34,5 @@ Repo for workflow testing
 [c1]: https://github.com/mockito/mockito/wiki/Using-git-to-prepare-your-PR-to-have-a-clean-history
 [c2]: http://www.siliconfidential.com/articles/15-seconds-to-cleaner-git-history/
 [c3]: https://coderwall.com/p/qybb6a/squash-your-git-commits-for-a-clean-history
-[c4]: http://blog.benjamin-encz.de/post/squashing-commits-with-git-rebase-guide/
+[c4]: https://www.youtube.com/watch?v=2E23I9PzplM
 
