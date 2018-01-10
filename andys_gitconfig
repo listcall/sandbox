@@ -1,0 +1,63 @@
+# use the nvie branch model
+# http://nvie.com/posts/a-successful-git-branching-model/
+# another reference using composite commands
+# https://github.com/thoughtbot/dotfiles/blob/master/gitconfig
+#
+# Workflow:
+# > g co dev           - go to the dev branch
+# > g mu master        - merge the master updates to dev
+# > g push             - push changes to github
+# > g co -b <feature>  - create a new feature branch and check it out
+# > g mu dev           - merge dev updates to feature
+# > g co dev           - check out dev branch
+# > g mc <feature>     - merge feature branch to dev branch
+# > g push             - push merged dev changes to github
+# > g b -d <feature>   - delete feature branch after it is no longer useful
+# > g co master        - check out master branch
+# > g mc dev           - merge dev branch into master branch
+# > g push             - push merged master changes to github
+#
+[user]
+  name = andyl
+  email = andy@r210.com
+[github]
+  user = andyl
+  token = TBD
+  patoken = TBD
+[alias]
+  r = remote
+  c = commit
+  s = status
+  d = diff
+  a = add
+  b = branch
+  l = log
+  l1 = log --pretty=oneline --abbrev-commit --graph --decorate
+  co = checkout
+  mu = merge                  # 'Merge Update' - from main branch to leaf branch
+  mc = merge --no-ff          # 'Merge Commit' - from leaf branch to main branch
+  stage = add
+  unstage = reset HEAD --
+[color]
+  ui = auto
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[push]
+	default = matching
+[url "git@github.com:andyl/"]
+  insteadOf = algh:
+[url "git@bitbucket.org:andyl2/"]
+  insteadOf = albb:
+[url "git@gitlab.com:andyl3/"]
+  insteadOf = algl:
